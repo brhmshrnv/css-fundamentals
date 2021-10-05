@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+ul a{
+    display: block;
+    text-decoration: none;
+    background-color: blueviolet;
+    width: 200px;
+    text-align: center;
+    color: aliceblue;
+    font: italic 400 18px Arial;
+    padding: 25px;
+    margin: 20px;
+    float: left;
+    border-radius: 25% 0%  25% 0%;
+    border: 5px dotted black;
+}
+
+/* a taglarinin uzerine gelende*/
+ul a:hover{
+    border-radius:  0% 25%  0% 25%;
+}

@@ -1,0 +1,14 @@
+body{
+ /* 
+    background-color: silver;
+    background-image: url("logo.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom; 
+    
+ */
+
+    /* ardicilliq : reng , url,  position/size, repeat, attachment */
+    background: rgb(218, 5, 5) url("logo.png") right bottom/100px no-repeat fixed ;
+}
